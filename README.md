@@ -2,6 +2,7 @@
 ## 项目管理:Maven
 ## 为了进一步熟悉SSM框架，我单独摘出了mybatis部署在普通的java Web项目上,从spring上借鉴了依赖注入,自己根据反射编写了一个映射工具类，可以根据前端返回的信息来封装bean
 ## FormBean如下
+```
 public class FormBean {
 	public static Object makeBean(HttpServletRequest request,Class<?> clazz){
 		Object result = null;
@@ -50,3 +51,4 @@ public class FormBean {
 		return result;
 	}
 	
+```
