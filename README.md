@@ -1,4 +1,4 @@
-# WebStore_Mybatis
+# Management System of firm
 ## 项目管理:Maven
 ## 项目技术：servlet+mybatis+jsp
 ## 为了进一步熟悉SSM框架，我单独摘出了mybatis部署在普通的java Web项目上,从spring上借鉴了依赖注入,自己根据反射编写了一个映射工具类，可以根据前端返回的信息来封装bean
